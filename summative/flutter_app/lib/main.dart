@@ -27,10 +27,6 @@ class CostEstimatorApp extends StatelessWidget {
   }
 }
 
-// Each field is still a TextField under the hood. Fields with `options`
-// are read-only and open a bottom-sheet picker on tap, so they LOOK like
-// a dropdown but remain a text box in the widget tree (per the brief's
-// literal "one text field per input variable" requirement).
 class InputField {
   final String key;
   final String label;
