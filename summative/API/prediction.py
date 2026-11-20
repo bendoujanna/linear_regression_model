@@ -21,6 +21,9 @@ app = FastAPI(
     version="1.0.0"
 )
 
+# Allow only my deployed Render URL and local dev port to call this API using GET/POST and the Content-Type header
+# Restrict wildcard (*) origins, other HTTP methods/headers, and credentials (since this API uses no logins or cookies) so random websites cannot call it from a user's browser
+# The Flutter mobile app is not a browser, so CORS does not block it either way; these rules only control browser-based callers
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
