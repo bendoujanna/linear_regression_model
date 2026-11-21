@@ -16,7 +16,7 @@ The dataset contains real inpatient discharge records across New York State with
 *(Note: This service runs on Render's free tier, so it may take 30–60 seconds to wake up on the first request after 15 minutes of inactivity.)*
 
 ## Video Demo
-- **YouTube Demo:** [YouTube video link]
+- **YouTube Demo:** [[YouTube video link]](https://youtu.be/W3usJYcraVQ)
 
 ## How to Run the Mobile App
 
